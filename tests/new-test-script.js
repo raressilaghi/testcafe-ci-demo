@@ -10,7 +10,7 @@ test(`New Test`, async t => {
         .pressKey('enter')
         .click(Selector('main a').withText(' Quick view').nth(3))
         .click(Selector('#add-to-cart-or-refresh button').withText(' ADD TO CART'))
-        .click(Selector('#blockcart-modal a').withText('PROCEED TO CHECKOUT'))
+        .click(Selector('#blockcartqqqq-modal a').withText('PROCEED TO CHECKOUT'))
         .pressKey('shift')
         .click(Selector('main a').withText('PROCEED TO CHECKOUT'))
 });
